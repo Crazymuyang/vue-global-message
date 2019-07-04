@@ -1,0 +1,43 @@
+{
+  "name": "vue-global-message",
+  "version": "1.0.0",
+  "author": "CrazyMuyang",
+  "license": "MIT",
+  "main": "lib/vue-global-message.umd.min.js",
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lib": "vue-cli-service build --target lib --name vue-global-message --dest lib src/components/index.js"
+  },
+  "dependencies": {
+    "core-js": "^2.6.5",
+    "vue": "^2.6.10"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.9.0",
+    "@vue/cli-service": "^3.9.0",
+    "node-sass": "^4.12.0",
+    "sass-loader": "^7.1.0",
+    "vue-template-compiler": "^2.6.10"
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Crazymuyang/vue-global-message.git"
+  },
+  "keywords": [
+    "vue",
+    "msg",
+    "message",
+    "globalmessage",
+    "toast"
+  ],
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ]
+}
